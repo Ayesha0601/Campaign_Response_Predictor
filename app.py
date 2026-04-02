@@ -112,5 +112,3 @@ if st.button("Predict Response"):
     col3, col4 = st.columns(2)
     col3.metric("Customer Age", f"{age} years")
     col4.metric("Household", f"{kid_home} kids, {teen_home} teens")
-
-    st.info("💡 Insights: Higher spending on Wines & Meat indicates premium preference. Frequent web visits may increase campaign response probability.")
